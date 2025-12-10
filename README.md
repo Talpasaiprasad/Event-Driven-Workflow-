@@ -1,17 +1,15 @@
 # Serverless Event-Driven-Workflow with AWS Glue and Amazon Event Bridge
 Event Driven Workflow using AWS Glue and Amazon Event Bridge
-# Scalability Event Driven Pipeline for User Engagement Analysis
 
 ## Project Overview
-This project implements a scalable, event-driven data pipeline using AWS services for real-time user engagement analysis. Data is extracted from an external API using Amazon Kinesis Data Streams, processed with AWS Lambda functions, stored in Amazon S3, and transformed into Parquet format for efficient querying using Amazon Athena. Visualizations are created using Amazon QuickSight.
+This project shows how to configure AWS Glue workflows to run based on real-time events. The benifits for these workflows are there is no need to set schedules or build complex solutions to trigger jobs based on events; We can hire AWS Glue for event-driven workflows. This project is designed using references from AWS Blogs.
 
 ## 🛠Technologies Used
-- **AWS Services:** Kinesis Data Streams, Lambda, S3, SNS, SQS, CloudWatch, Glue, Athena, QuickSight, EventBridge
-- **API:** Ninjas API
+- **AWS Services:** S3, CloudTrail, Event Bridge, Glue Wokrflow, Lambda, IAM, Cloud Formation, AWS CLI
 - **Python Libraries:** Boto3, Pandas, PyArrow
 
 ## Project Architecture
-![Architecture](EDP.png)
+![Architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/07/13/glue_event_driven_workflow.png)
 
 ## Extract: Real-Time Data Ingestion
 - Data is ingested from an external API using Python.
