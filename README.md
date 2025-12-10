@@ -9,7 +9,7 @@ This project shows how to configure AWS Glue workflows to run based on real-time
 - **Python Libraries:** Boto3, Pandas, PyArrow
 
 ## Project Architecture
-![Architecture](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2021/07/13/glue_event_driven_workflow.png)
+![Architecture](glue_event_driven_workflow)
 
 ## Extract: Real-Time Data Ingestion
 - Data is ingested from an external API using Python.
