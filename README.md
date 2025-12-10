@@ -22,7 +22,6 @@ This project shows how to configure AWS Glue workflows to run based on real-time
 - Trigger the AWS Glue workflow by uploading files to Amazon S3
 - Verify the AWS Glue workflow in triggered successfully
 - Verify the metrics for the EventBridge rule( Use Amazon CloudWatch metrics to validate the events sent to the AWS Glue workflow)
-- 
   
 ## ETL Workflow Process:
 - Extract: Sorting data in S3 that comes from end API, and these got captured by AWS Cloud Trail. RUles in the EVnt Bridge to forward PutObject API events to AWS Glue when emitted by CloudTrail.
@@ -31,8 +30,6 @@ This project shows how to configure AWS Glue workflows to run based on real-time
 
 ## Solution Deployment:
 - To quick start the solution, The AWS CLoudFormation stack is used to build all required resources
-
-##Trigger the AWS Glue workflow by uploading files to Amazon S3:
 
 ## Clean up:
 - Final step, Clean up the resources, The AWS CloudFormation stack to remove any resources created as part of this walkthrough.
